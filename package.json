@@ -1,0 +1,40 @@
+{
+  "name": "@justinlettau/eslint-config",
+  "version": "0.1.0",
+  "description": "ESLint sharable config for my projects.",
+  "keywords": [
+    "eslint",
+    "lint",
+    "javascript",
+    "config"
+  ],
+  "author": {
+    "name": "Justin Lettau",
+    "email": "me@justinlettau.com",
+    "url": "https://justinlettau.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/justinlettau/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justinlettau/eslint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/justinlettau/eslint-config/issues"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    ".eslintrc.json"
+  ],
+  "scripts": {
+    "release": "standard-version"
+  },
+  "peerDependencies": {
+    "eslint": ">=5.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "standard-version": "^4.4.0"
+  }
+}
