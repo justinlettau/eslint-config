@@ -1,6 +1,7 @@
 {
   "extends": "airbnb",
   "rules": {
+    "arrow-parens": ["error", "as-needed"],
     "comma-dangle": ["error", "never"],
     "import/no-extraneous-dependencies": 0,
     "linebreak-style": 0,
