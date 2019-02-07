@@ -31,10 +31,10 @@
     "release": "standard-version"
   },
   "peerDependencies": {
-    "eslint": ">=5.0.0"
+    "eslint": ">=5.0.0",
+    "eslint-config-airbnb": "^17.1.0"
   },
   "devDependencies": {
-    "eslint-config-airbnb": "^17.1.0",
     "standard-version": "^4.4.0"
   }
 }
